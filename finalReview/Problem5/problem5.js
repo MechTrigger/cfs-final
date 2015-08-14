@@ -30,3 +30,12 @@ $(document).ready(function() {
         cat.meow();
     })
 });
+
+function Cat(color, weight) {
+    this.color = color;
+    this.weight = weight;
+    this.meow = function () {
+        console.log("Meow! Meow! Meow!");
+    }
+
+}

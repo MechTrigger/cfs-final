@@ -17,16 +17,23 @@ $(document).ready(function() {
         setOutput('.output1', one);
         setOutput('.output2', two);
         setOutput('#output', output);
+
+
     });
 });
 
+function getUserInput(input) {
+    return $(input).val();
+}
 /*
 Write the getUserInput function here
 
 Its should only accept 1 parameter, a css selector for the input element
 It should return the value in the input field
 */
-
+function setOutput(selector, num) {
+    $(selector).text(num);
+}
 
 
 /*

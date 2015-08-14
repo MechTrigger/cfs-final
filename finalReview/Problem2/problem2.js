@@ -18,8 +18,16 @@ Repair their code! There are 10 bugs in the code. Make a short description of wh
 10. ?
 */
 
-document.ready(function {
-    $('nav .ul li').css('list-style-type' square);
+$(document).ready(function () {
+    $('<nav/> <ul/> <li/>').css('list-style-type', square);
 
-    $('.output').text('.p'.text.split( ).length());
+    $('.output').text('<p/>'.text.split( ).length());
 });
+
+var i = 0;
+
+while (i <= $('p').text().length) {
+    
+}
+
+console.log($('p').text());
